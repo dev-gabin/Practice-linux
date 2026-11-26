@@ -6,3 +6,18 @@ hello_client
 core
 core.*
 *.swp
+
+# Local-only files
+.env
+.env.*
+!.env.example
+config_local.*
+.ipynb_checkpoints/
+build/
+Debug/
+Release/
+*.elf
+*.map
+*.log
+/tcpip/tcpip_src/
+*.zip
